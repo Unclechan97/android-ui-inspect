@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# UI dumps and screenshots often contain personal data. Do not commit them
+# by accident; force-add a deliberately sanitized fixture if one is needed.
+*.xml
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.zip
+evidence/
+dumps/
+*.log
+
+.env
+.env.*
